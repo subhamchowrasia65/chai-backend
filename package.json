@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "backend_environment_setup",
+  "version": "1.0.0",
+  "description": "this is a video series with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhamchowrasia65/chai-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhamchowrasia65/chai-backend/issues"
+  },
+  "homepage": "https://github.com/subhamchowrasia65/chai-backend#readme"
+}
