@@ -3,11 +3,10 @@
   "name": "backend_environment_setup",
   "version": "1.0.0",
   "description": "this is a video series with javascript",
-  "main": "index.js",
+  "main": "src/index.js", 
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
-    
+    "dev": "nodemon -r dotenv/confiig--experimental -json-module src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +22,10 @@
   "devDependencies": {
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
   }
 }
